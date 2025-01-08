@@ -123,6 +123,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Max Kotas - [LinkedIn](https://www.linkedin.com/in/max-kotas-008984136)
 
 Project Link: [https://github.com/maxkotas/portfolio](https://github.com/maxkotas/portfolio)
-```
-
-</rewritten_file>
