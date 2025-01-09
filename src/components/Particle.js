@@ -8,40 +8,56 @@ function Particle() {
       params={{
         particles: {
           number: {
-            value: 40,
+            value: 50,
             density: {
               enable: true,
-              value_area: 1000
+              value_area: 1500
             }
           },
           color: {
-            value: "#add8e6"  // light blue
+            value: ["#add8e6", "#87CEEB", "#00BFFF"]
           },
           shape: {
-            type: "circle"
+            type: ["circle", "triangle"],
+            stroke: {
+              width: 1,
+              color: "#add8e6"
+            }
           },
           size: {
-            value: 3,
+            value: 4,
             random: true,
             anim: {
-              enable: false
+              enable: true,
+              speed: 3,
+              size_min: 0.3,
+              sync: false
             }
           },
           line_linked: {
             enable: true,
             distance: 150,
-            color: "#add8e6",  // light blue
-            opacity: 0.4,
-            width: 1
+            color: "#add8e6",
+            opacity: 0.5,
+            width: 1,
+            triangles: {
+              enable: true,
+              opacity: 0.1
+            }
           },
           move: {
             enable: true,
-            speed: 0.2,
+            speed: 0.8,
             direction: "none",
             random: true,
             straight: false,
             out_mode: "bounce",
-            bounce: false
+            bounce: true,
+            attract: {
+              enable: false,
+              rotateX: 600,
+              rotateY: 1200
+            }
           }
         },
         interactivity: {
@@ -49,7 +65,7 @@ function Particle() {
           events: {
             onhover: {
               enable: true,
-              mode: "grab"
+              mode: ["grab", "bubble"]
             },
             onclick: {
               enable: true,
@@ -59,13 +75,20 @@ function Particle() {
           },
           modes: {
             grab: {
-              distance: 140,
+              distance: 200,
               line_linked: {
-                opacity: 1
+                opacity: 0.8
               }
             },
+            bubble: {
+              distance: 250,
+              size: 10,
+              duration: 2,
+              opacity: 0.8,
+              speed: 3
+            },
             push: {
-              particles_nb: 1
+              particles_nb: 3
             }
           }
         },
