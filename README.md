@@ -39,8 +39,6 @@ A modern, responsive portfolio website built with React.js, showcasing my work a
 
 1. Clone the repository
 ```
-
-```git
 git clone https://github.com/maxkotas/portfolio.git
 ```
 
