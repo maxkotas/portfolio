@@ -61,7 +61,7 @@ function Projects() {
               <ProjectCard
                   imgPath={thermalPrinterImg}
                   isBlog={false}
-                  title="Thermal Camera Printer"
+                  title="Thermal Printer Camera"
                   description="A Python-powered application for capturing images with a Raspberry Pi camera and printing them on a thermal printer. Features real-time image processing, optimized for ESC/POS thermal printers, making it perfect for DIY photo booths or creative printing experiments."
                   ghLink="https://github.com/maxkotas/thermal-camera-printer"
               />
