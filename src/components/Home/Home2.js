@@ -71,7 +71,7 @@ function Home2() {
               performance and reliability.
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={4} className="myAvtar" style={{ position: "relative", zIndex: 2 }}>
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
@@ -81,7 +81,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Let’s <span className="purple">connect</span> and explore new
+              Let's <span className="purple">connect</span> and explore new
               possibilities!
             </p>
             <ul className="home-about-social-links">

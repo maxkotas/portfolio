@@ -8,28 +8,28 @@ function Particle() {
       params={{
         particles: {
           number: {
-            value: 50,
+            value: 30,
             density: {
               enable: true,
-              value_area: 1500
+              value_area: 2000
             }
           },
           color: {
             value: ["#add8e6", "#87CEEB", "#00BFFF"]
           },
           shape: {
-            type: ["circle", "triangle"],
+            type: ["circle"],
             stroke: {
               width: 1,
               color: "#add8e6"
             }
           },
           size: {
-            value: 4,
+            value: 3,
             random: true,
             anim: {
               enable: true,
-              speed: 3,
+              speed: 1,
               size_min: 0.3,
               sync: false
             }
@@ -38,16 +38,15 @@ function Particle() {
             enable: true,
             distance: 150,
             color: "#add8e6",
-            opacity: 0.5,
+            opacity: 0.3,
             width: 1,
             triangles: {
-              enable: true,
-              opacity: 0.1
+              enable: false
             }
           },
           move: {
             enable: true,
-            speed: 0.8,
+            speed: 0.4,
             direction: "none",
             random: true,
             straight: false,
@@ -65,7 +64,7 @@ function Particle() {
           events: {
             onhover: {
               enable: true,
-              mode: ["grab", "bubble"]
+              mode: "grab"
             },
             onclick: {
               enable: true,
@@ -77,18 +76,11 @@ function Particle() {
             grab: {
               distance: 200,
               line_linked: {
-                opacity: 0.8
+                opacity: 0.4
               }
             },
-            bubble: {
-              distance: 250,
-              size: 10,
-              duration: 2,
-              opacity: 0.8,
-              speed: 3
-            },
             push: {
-              particles_nb: 3
+              particles_nb: 1
             }
           }
         },

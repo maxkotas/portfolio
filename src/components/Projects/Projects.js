@@ -12,6 +12,8 @@ import bldcMotorImg from "../../Assets/Projects/BLDCMotor.png";
 import bldcSensorReportPdf from "../../Assets/Projects/BLDC Motor Control Project.pdf";
 import iotPetTrackerPdf from "../../Assets/Projects/WatchDogReport.pdf";
 import iotPetTracker from "../../Assets/Projects/iotPetCollar.png";
+import fpgaNN from "../../Assets/Projects/fpgaNN.png";
+import thermalPrinterImg from "../../Assets/Projects/thermalPrinterImg.png";
 
 function Projects() {
   return (
@@ -25,6 +27,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+              <ProjectCard
+                  imgPath={fpgaNN}
+                  isBlog={false}
+                  title="FPGA-Accelerated Neural Network for Low-Power Applications"
+                  description="Designed a hardware-accelerated neural network using HLS4ML and Qkeras for FPGA deployment. The model was quantized for efficient low-power operation and trained on the MNIST dataset for digit recognition. Optimized for embedded systems, the design leverages Xilinx Vivado for hardware synthesis and integration."
+                  ghLink="https://github.com/maxkotas/fpga_accelerated_nn"
+              />
+          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={drinktable}
@@ -43,6 +55,16 @@ function Projects() {
               description="A comprehensive design and implementation of a BLDC motor control system employing six-step trapezoidal voltage modulation. The project integrates Hall sensor feedback, a three-phase inverter, and a DSP-based control platform for both open-loop and closed-loop configurations. Key features include speed regulation via a PI controller, real-time PWM adjustments, and seamless direction reversal."
               demoLink={bldcMotorReportPdf}
             />
+          </Col>
+          
+          <Col md={4} className="project-card">
+              <ProjectCard
+                  imgPath={thermalPrinterImg}
+                  isBlog={false}
+                  title="Thermal Camera Printer"
+                  description="A Python-powered application for capturing images with a Raspberry Pi camera and printing them on a thermal printer. Features real-time image processing, optimized for ESC/POS thermal printers, making it perfect for DIY photo booths or creative printing experiments."
+                  ghLink="https://github.com/maxkotas/thermal-camera-printer"
+              />
           </Col>
 
           <Col md={4} className="project-card">
