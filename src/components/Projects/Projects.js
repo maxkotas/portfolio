@@ -62,7 +62,7 @@ function Projects() {
                   imgPath={thermalPrinterImg}
                   isBlog={false}
                   title="Thermal Printer Camera"
-                  description="A Python-powered application for capturing images with a Raspberry Pi camera and printing them on a thermal printer. Features real-time image processing, optimized for ESC/POS thermal printers, making it perfect for DIY photo booths or creative printing experiments."
+                  description="A Python-powered application leveraging UART serial communication for seamless integration of a Raspberry Pi camera with a thermal printer. Captures images in real time, processes them for high-contrast thermal printing, and sends them to the printer using optimized ESC/POS commands. This project demonstrates expertise in hardware-software integration, image processing, and serial communication, making it ideal for applications like DIY photo booths, creative printing experiments, or embedded system development."
                   ghLink="https://github.com/maxkotas/thermal-camera-printer"
               />
           </Col>
