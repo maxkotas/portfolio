@@ -1,50 +1,69 @@
-# Max Kotas - Portfolio Website
+# Max Kotas - Engineering Portfolio
 
-![Portfolio Website](https://img.shields.io/badge/Portfolio-Website-blue)
-![React](https://img.shields.io/badge/React-17.0.2-61dafb)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-5.1.3-7952b3)
+![Portfolio Website](https://img.shields.io/badge/Portfolio-Live-ff6c37?style=for-the-badge&logo=firebase&logoColor=white)
+![React](https://img.shields.io/badge/React-17.0.2-61dafb?style=for-the-badge&logo=react&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5.1.3-7952b3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-A modern, responsive portfolio website built with React.js, showcasing my work as an Electrical Engineer. The website features a clean design with interactive elements, project showcases, and detailed information about my professional background.
+A modern, responsive portfolio website showcasing my engineering projects and professional experience. Built with React and featuring interactive components, project showcases with detailed descriptions, and comprehensive information about my technical skills and background.
 
-## 🌟 Features
+## 📌 Live Demo
 
-- Responsive navigation with smooth transitions
-- Interactive particle background
-- Dynamic typing animation on the home page
-- Project showcase with detailed descriptions
-- Downloadable resume
-- Professional skill visualization
-- Mobile-friendly design
-- Dark theme optimized for readability
+**[maxkotas.com](https://maxkotas.com)**
 
-## 🛠️ Built With
+![Website Preview](./src/Assets/demo_images/portfolio_preview.png)
 
-- React.js
-- React Bootstrap
-- React Router DOM
-- React Icons
-- React PDF
-- React Particles
-- Typewriter Effect
-- CSS3
+*Note: Add a screenshot of your site to the `src/Assets/demo_images` directory*
+
+## 🔥 Featured Projects
+
+![Projects Preview](./src/Assets/demo_images/projects_preview.png)
+
+The portfolio showcases a variety of engineering projects including:
+
+- **Spherical Rolling Robot PCB Redesign** - Custom PCB design with ESP32 microcontroller integration
+- **FPGA-Accelerated Neural Network** - Hardware-accelerated NN using HLS4ML for low-power applications
+- **IoT-Integrated Beverage Dispensing Table** - MQTT-controlled system with precision mechanical components
+- **BLDC Motor Control Systems** - Advanced motor control implementations with sensor feedback
+- **IoT-Controlled Precision Flamethrower** - ESP32-based control system with servo motor actuation
+- **SEO Analysis Pipeline** - Python-based web scraping and NLP tool for content analysis
+- **Thermal Printer Camera** - Raspberry Pi integration with thermal printing technology
+
+## 🛠️ Technology Stack
+
+![Tech Stack](./src/Assets/demo_images/skills_preview.png)
+
+### Frontend
+- **React.js** - Component-based UI development
+- **React Bootstrap** - Responsive layout and styling
+- **React Router** - Client-side routing
+- **CSS3** - Custom styling and animations
+
+### Interactive Elements
+- **React Tsparticles** - Interactive particle background
+- **Typewriter Effect** - Dynamic text animation
+- **React Parallax Tilt** - 3D card hover effects
+- **React PDF** - PDF document viewing for resume
+
+### Deployment
+- **GitHub Pages** - Static site hosting
+- **Custom Domain** - Personalized web presence
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-
 - Node.js (v14 or higher)
 - npm or yarn
 
 ### Installation
 
 1. Clone the repository
-```
-git clone https://github.com/maxkotas/portfolio.git
+```bash
+git clone https://github.com/maxkotas/maxSite.git
 ```
 
 2. Navigate to the project directory
 ```bash
-cd portfolio
+cd maxSite
 ```
 
 3. Install dependencies
@@ -59,64 +78,78 @@ npm start
 
 The application will open in your default browser at `http://localhost:3000`
 
-## 📁 Project Structure
+## 📂 Project Structure
 
 ```
-portfolio/
-├── public/
-│   ├── index.html
-│   ├── manifest.json
-│   └── robots.txt
+maxSite/
+├── public/                # Static files
+│   ├── index.html         # HTML entry point
+│   ├── favicon.png        # Website favicon
+│   ├── manifest.json      # PWA manifest
+│   └── robots.txt         # SEO configuration
 ├── src/
-│   ├── components/
-│   │   ├── About/
-│   │   ├── Home/
-│   │   ├── Projects/
-│   │   └── Resume/
-│   ├── Assets/
-│   ├── App.js
-│   └── index.js
-└── package.json
+│   ├── components/        # React components
+│   │   ├── About/         # About section components
+│   │   ├── Home/          # Home page components
+│   │   ├── Projects/      # Project showcase components
+│   │   └── Resume/        # Resume section components
+│   ├── Assets/            # Images, PDFs, and other static assets
+│   │   └── Projects/      # Project-specific images and documents
+│   ├── App.js             # Main application component
+│   ├── App.css            # Application-wide styles
+│   └── index.js           # JavaScript entry point
+└── package.json           # Project dependencies and scripts
 ```
 
 ## 🎨 Customization
 
-1. Update personal information in `src/components/Home/Home2.js`
-2. Modify projects in `src/components/Projects/Projects.js`
-3. Update skills in `src/components/About/Techstack.js`
-4. Replace resume in `src/Assets/`
+The portfolio is designed to be easily customizable:
 
-## 🔧 Environment Variables
-
-No environment variables are required for basic setup.
+1. **Personal Information**: Update details in `src/components/Home/Home2.js`
+2. **Projects**: Add or modify projects in `src/components/Projects/Projects.js`
+3. **Skills**: Update tech stack in `src/components/About/Techstack.js` and `Toolstack.js`
+4. **Resume**: Replace PDF in `src/Assets/`
 
 ## 📱 Responsive Design
 
-The website is fully responsive and optimized for:
-- Desktop (1200px and above)
-- Tablet (768px to 1199px)
-- Mobile (below 768px)
+![Responsive Design](./src/Assets/demo_images/responsive_preview.png)
 
-## 🤝 Contributing
+The website is fully responsive across all device sizes:
+- **Desktop** (1200px and above)
+- **Tablet** (768px to 1199px)
+- **Mobile** (below 768px)
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+All components automatically adjust their layout and styling to provide an optimal viewing experience regardless of screen size.
+
+## ✨ Key Features
+
+- **Dynamic Project Sorting**: Projects automatically sorted by date (newest first)
+- **PDF Document Embedding**: Technical documentation and resume viewing
+- **Interactive Background**: Particle animation that responds to user interaction
+- **Smooth Transitions**: Page transitions and scrolling animations
+- **Typewriter Effect**: Dynamic text animation on the home page
+- **Consistent Theming**: Dark theme with accent color highlighting
+- **GitHub Integration**: Direct links to project repositories
+- **Demo Links**: Easy access to project demonstrations and documentation
+
+## 🔧 Future Improvements
+
+Planned enhancements for future versions:
+
+- Upgrade to React 18 for improved performance
+- Add TypeScript for better type safety
+- Implement a more structured folder hierarchy (services, hooks, utils)
+- Move hardcoded data to separate data files
+- Add environment configuration for different deployment settings
+- Implement custom hooks for code reuse
+- Add error boundaries for graceful failure handling
+- Standardize naming conventions throughout the codebase
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
-
-- React.js community
-- React Bootstrap team
-- React Icons contributors
-- Particle.js developers
-
-## 📧 Contact
+## 📬 Contact
 
 Max Kotas - [LinkedIn](https://www.linkedin.com/in/max-kotas-008984136)
 
