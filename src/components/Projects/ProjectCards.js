@@ -7,60 +7,43 @@ import { BsGithub } from "react-icons/bs";
 function ProjectCards(props) {
   return (
     <Card className="project-card-view">
-      <div style={{ position: "relative" }}>
+      <div className="project-image-container">
         <Card.Img 
           variant="top" 
           src={props.imgPath} 
           alt="card-img" 
-          style={{ 
-            height: "250px",  // Fixed height
-            width: "100%",    // Full width of container
-            objectFit: "cover" // This ensures images maintain aspect ratio
-          }}
+          className="project-image"
         />
         {props.date && (
-          <div 
-            style={{ 
-              position: "absolute", 
-              top: "10px", 
-              right: "10px", 
-              backgroundColor: "rgba(0, 0, 0, 0.7)", 
-              color: "#fff", 
-              padding: "5px 10px", 
-              borderRadius: "4px",
-              fontWeight: "500",
-              fontSize: "0.9rem"
-            }}
-          >
+          <div className="project-date-badge">
             {props.date}
           </div>
         )}
       </div>
-      <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
+      <Card.Body className="project-card-body">
+        <Card.Title className="project-title">{props.title}</Card.Title>
+        <Card.Text className="project-description">
           {props.description}
         </Card.Text>
-        {props.ghLink && (
-          <Button variant="primary" href={props.ghLink} target="_blank">
-            <BsGithub /> &nbsp;
-            {props.isBlog ? "Blog" : "GitHub"}
-          </Button>
-        )}
-        {"\n"}
-        {"\n"}
+        <div className="project-buttons">
+          {props.ghLink && (
+            <Button className="project-button github-button" href={props.ghLink} target="_blank">
+              <BsGithub /> &nbsp;
+              {props.isBlog ? "Blog" : "GitHub"}
+            </Button>
+          )}
 
-        {!props.isBlog && props.demoLink && (
-          <Button
-            variant="primary"
-            href={props.demoLink}
-            target="_blank"
-            style={{ marginLeft: props.ghLink ? "10px" : "0px" }}
-          >
-            <CgWebsite /> &nbsp;
-            {props.buttonText || "Technical Report"}
-          </Button>
-        )}
+          {!props.isBlog && props.demoLink && (
+            <Button
+              className={`project-button demo-button ${props.ghLink ? "with-margin" : ""}`}
+              href={props.demoLink}
+              target="_blank"
+            >
+              <CgWebsite /> &nbsp;
+              {props.buttonText || "Technical Report"}
+            </Button>
+          )}
+        </div>
       </Card.Body>
     </Card>
   );

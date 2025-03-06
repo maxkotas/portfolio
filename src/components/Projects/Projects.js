@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
+import GridBackground from "../GridBackground";
 import drinktable from "../../Assets/Projects/drink_table_drawing.png";
 import beverageTablePdf from "../../Assets/Projects/beverage_table.pdf";
 import seopipeline from "../../Assets/Projects/seopipeline.png";
@@ -115,7 +115,7 @@ function Projects() {
 
   return (
     <Container fluid className="project-section">
-      <Particle />
+      <GridBackground />
       <Container>
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>

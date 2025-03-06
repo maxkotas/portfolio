@@ -15,13 +15,13 @@ function Particle() {
             }
           },
           color: {
-            value: ["#add8e6", "#87CEEB", "#00BFFF"]
+            value: ["#FF6B6B", "#00B894", "#00CEC9"]
           },
           shape: {
             type: ["circle"],
             stroke: {
               width: 1,
-              color: "#add8e6"
+              color: "#FF8E8E"
             }
           },
           size: {
@@ -37,8 +37,8 @@ function Particle() {
           line_linked: {
             enable: true,
             distance: 150,
-            color: "#add8e6",
-            opacity: 0.3,
+            color: "#FF6B6B",
+            opacity: 0.2,
             width: 1,
             triangles: {
               enable: false
