@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.117f03ab.css",
-    "main.js": "/static/js/main.dd8ad8ef.js",
-    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "main.css": "/static/css/main.a623cbb1.css",
+    "main.js": "/static/js/main.4a0513e6.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/WatchDogReport.pdf": "/static/media/WatchDogReport.7331306f9a148f87f097.pdf",
     "static/media/beverage_table.pdf": "/static/media/beverage_table.5fbee41cbb07154e2eba.pdf",
@@ -21,16 +20,14 @@
     "static/media/seopipeline.png": "/static/media/seopipeline.07367b6e0d26b8e7c7c7.png",
     "static/media/BLDCMotor.png": "/static/media/BLDCMotor.75a0ce6257ef070c88b5.png",
     "static/media/Resumé_TI.pdf": "/static/media/Resumé_TI.9f2f0d1f48b72818048c.pdf",
-    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/pre.svg": "/static/media/pre.cb09abb03bcdc13f4683.svg",
     "index.html": "/index.html",
-    "main.117f03ab.css.map": "/static/css/main.117f03ab.css.map",
-    "main.dd8ad8ef.js.map": "/static/js/main.dd8ad8ef.js.map",
-    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "main.a623cbb1.css.map": "/static/css/main.a623cbb1.css.map",
+    "main.4a0513e6.js.map": "/static/js/main.4a0513e6.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.117f03ab.css",
-    "static/js/main.dd8ad8ef.js"
+    "static/css/main.a623cbb1.css",
+    "static/js/main.4a0513e6.js"
   ]
 }
