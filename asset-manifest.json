@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.117f03ab.css",
-    "main.js": "/static/js/main.282e7590.js",
+    "main.js": "/static/js/main.14b4046f.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/WatchDogReport.pdf": "/static/media/WatchDogReport.7331306f9a148f87f097.pdf",
@@ -16,6 +16,7 @@
     "static/media/thermalPrinterImg.png": "/static/media/thermalPrinterImg.f3dc8ae300e68185e0ab.png",
     "static/media/BLDCControl.png": "/static/media/BLDCControl.0e801f2153be5d665eeb.png",
     "static/media/flamethrower.png": "/static/media/flamethrower.16ff7109e0f85126e8a3.png",
+    "static/media/sphero_robot.png": "/static/media/sphero_robot.6d9fda874a117df1083d.png",
     "static/media/fpgaNN.png": "/static/media/fpgaNN.5c39f9801b1f0529f593.png",
     "static/media/seopipeline.png": "/static/media/seopipeline.07367b6e0d26b8e7c7c7.png",
     "static/media/BLDCMotor.png": "/static/media/BLDCMotor.75a0ce6257ef070c88b5.png",
@@ -24,12 +25,12 @@
     "static/media/pre.svg": "/static/media/pre.cb09abb03bcdc13f4683.svg",
     "index.html": "/index.html",
     "main.117f03ab.css.map": "/static/css/main.117f03ab.css.map",
-    "main.282e7590.js.map": "/static/js/main.282e7590.js.map",
+    "main.14b4046f.js.map": "/static/js/main.14b4046f.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.117f03ab.css",
-    "static/js/main.282e7590.js"
+    "static/js/main.14b4046f.js"
   ]
 }
