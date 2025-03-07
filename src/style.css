@@ -1753,6 +1753,11 @@ button:focus {
   }
   
   /* Bio section responsive */
+  .bio-mega-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
   .bio-header {
     flex-direction: column;
     text-align: center;
@@ -1768,12 +1773,21 @@ button:focus {
     padding: 20px;
   }
   
+  .bio-stats {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
   .bio-brief {
     font-size: 1rem;
   }
   
   .bio-quote blockquote p {
     font-size: 1rem;
+  }
+  
+  .bio-side-content {
+    margin-top: 0;
   }
   
   .connect-links {
@@ -1783,21 +1797,33 @@ button:focus {
   
   .connect-button {
     flex: 1;
+    padding: 12px 15px;
+    font-size: 0.9rem;
   }
   
   /* Skills section responsive */
   .tech-grid {
-    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-    gap: 15px;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 12px;
+    padding: 0 10px;
+  }
+  
+  .tech-icon-inner {
+    padding: 20px 10px;
   }
   
   .tech-icon-inner svg {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .tech-name {
+    font-size: 0.85rem;
   }
   
   /* Tools section responsive */
   .tools-grid {
-    gap: 20px;
+    gap: 15px;
   }
   
   .tool-card {
@@ -1813,19 +1839,55 @@ button:focus {
   /* Specialties section responsive */
   .specialties-grid {
     grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 0 10px;
   }
   
   .specialty-card {
     padding: 25px 20px;
   }
   
+  .specialty-card-title {
+    font-size: 1.2rem;
+  }
+  
+  .specialty-card-desc {
+    font-size: 0.9rem;
+  }
+  
   /* Timeline responsive */
+  .timeline::before {
+    left: 20px;
+  }
+  
+  .timeline-dot {
+    left: 20px;
+  }
+  
   .timeline-content {
+    width: calc(100% - 60px);
+    margin-left: 60px !important;
+    margin-right: 0 !important;
     padding: 20px;
+  }
+  
+  .timeline-item:nth-child(odd) .timeline-content {
+    margin-left: 60px;
+    margin-right: 0;
   }
   
   .timeline-title {
     font-size: 1.2rem;
+  }
+  
+  .timeline-info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+  
+  .timeline-text {
+    font-size: 0.9rem;
   }
   
   /* CTA section responsive */
@@ -1841,6 +1903,106 @@ button:focus {
     flex-direction: column;
     max-width: 250px;
     margin: 0 auto;
+    gap: 15px;
+  }
+  
+  .cta-button {
+    padding: 12px 20px;
+    font-size: 0.8rem;
+  }
+}
+
+/* Extra small devices (phones, 575px and down) */
+@media (max-width: 575px) {
+  .section-title {
+    margin-bottom: 30px;
+  }
+  
+  .section-heading {
+    font-size: 1.8em;
+  }
+  
+  .section-subtitle {
+    font-size: 0.8rem;
+  }
+  
+  /* Bio section for very small screens */
+  .bio-name {
+    font-size: 1.5rem;
+  }
+  
+  .bio-avatar {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .bio-content {
+    padding: 15px;
+  }
+  
+  .bio-stats {
+    gap: 10px;
+  }
+  
+  .stat-icon {
+    width: 35px;
+    height: 35px;
+    font-size: 1.4rem;
+  }
+  
+  .bio-brief {
+    font-size: 0.9rem;
+  }
+  
+  /* Connect links */
+  .connect-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Tech grid for very small screens */
+  .tech-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .tech-icon-inner {
+    padding: 15px 10px;
+  }
+  
+  .tech-icon-inner svg {
+    font-size: 2.2rem;
+  }
+  
+  /* Timeline on small screens */
+  .timeline-content {
+    padding: 15px;
+  }
+  
+  .timeline-title {
+    font-size: 1.1rem;
+  }
+  
+  .timeline-info {
+    margin-bottom: 10px;
+  }
+  
+  .timeline-text {
+    font-size: 0.85rem;
+  }
+  
+  /* CTA section for very small screens */
+  .cta-content {
+    padding: 30px 20px;
+  }
+  
+  .cta-title {
+    font-size: 1.3rem;
+  }
+  
+  .cta-text {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
   }
 }
 
@@ -2419,6 +2581,7 @@ button:focus {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: var(--text) !important;
+  overflow-x: hidden !important; /* Prevent horizontal scroll on mobile */
 }
 
 .tech-icons {
