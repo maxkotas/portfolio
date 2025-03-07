@@ -151,6 +151,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📬 Contact
 
-Max Kotas - [LinkedIn](https://www.linkedin.com/in/max-kotas-008984136)
+Max Kotas - [LinkedIn](https://www.linkedin.com/in/max-kotas)
 
 Project Link: [https://github.com/maxkotas/portfolio](https://github.com/maxkotas/portfolio)
