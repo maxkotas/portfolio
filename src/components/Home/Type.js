@@ -8,13 +8,20 @@ function Type() {
         strings: [
           "Electrical Engineer",
           "Circuit Designer",
-          "Power Systems Engineer",
           "Control Systems Specialist",
-          "Electronics Expert",
+          "Motor Control Expert",
+          "Embedded Systems Developer",
+          "Power Electronics Engineer",
+          "RF Design Innovator"
         ],
         autoStart: true,
         loop: true,
-        deleteSpeed: 50,
+        deleteSpeed: 40,
+        delay: 80,
+        pauseFor: 1500,
+        cursor: "|",
+        wrapperClassName: "typewriter-wrapper",
+        cursorClassName: "typewriter-cursor"
       }}
     />
   );

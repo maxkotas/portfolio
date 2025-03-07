@@ -19,17 +19,28 @@ function ResumeNew() {
     <div>
       <Container fluid className="resume-section">
         <GridBackground />
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
-        </Row>
+        <Container>
+          <div className="section-title text-center mb-5">
+            <div className="section-subtitle-wrapper">
+              <span className="section-subtitle">My Background</span>
+            </div>
+            <h1 className="section-heading">
+              My <strong className="purple">Resume</strong>
+            </h1>
+          </div>
+          
+          <Row style={{ justifyContent: "center", position: "relative" }}>
+            <Button
+              variant="primary"
+              href={pdf}
+              target="_blank"
+              style={{ maxWidth: "250px" }}
+            >
+              <AiOutlineDownload />
+              &nbsp;Download CV
+            </Button>
+          </Row>
+        </Container>
 
         <Row className="resume">
           <Document file={pdf} className="d-flex justify-content-center">

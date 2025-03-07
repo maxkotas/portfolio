@@ -117,12 +117,17 @@ function Projects() {
     <Container fluid className="project-section">
       <GridBackground />
       <Container>
-        <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
-        </h1>
-        <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
-        </p>
+        <div className="section-title text-center mb-5">
+          <div className="section-subtitle-wrapper">
+            <span className="section-subtitle">Portfolio</span>
+          </div>
+          <h1 className="section-heading">
+            My Recent <strong className="purple">Works</strong>
+          </h1>
+          <p className="section-description">
+            Here are a few projects I've worked on recently.
+          </p>
+        </div>
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           {sortedProjects.map((project, index) => (
