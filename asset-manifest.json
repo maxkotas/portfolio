@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.eeae4c50.css",
-    "main.js": "/static/js/main.7cf81650.js",
+    "main.css": "/static/css/main.65d8efae.css",
+    "main.js": "/static/js/main.adcaddaa.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/WatchDogReport.pdf": "/static/media/WatchDogReport.7331306f9a148f87f097.pdf",
     "static/media/beverage_table.pdf": "/static/media/beverage_table.5fbee41cbb07154e2eba.pdf",
     "static/media/MaxCutout.png": "/static/media/MaxCutout.a624612a26bfead3a533.png",
     "static/media/BLDC Motor Control Project.pdf": "/static/media/BLDC Motor Control Project.209c91af62482d566c6e.pdf",
     "static/media/BLDC_Motor_Control.pdf": "/static/media/BLDC_Motor_Control.a67e0bd445fec65ac90a.pdf",
-    "static/media/engineering_desk.png": "/static/media/engineering_desk.a46b6b0747df1fd9f70b.png",
     "static/media/iotPetCollar.png": "/static/media/iotPetCollar.24cad64c674c8cc982fc.png",
     "static/media/drink_table_drawing.png": "/static/media/drink_table_drawing.9c8b01beea3562189076.png",
     "static/media/roundEngineer.png": "/static/media/roundEngineer.4c73246769d7150ae5a1.png",
@@ -22,12 +21,12 @@
     "static/media/Resumé_TI.pdf": "/static/media/Resumé_TI.9f2f0d1f48b72818048c.pdf",
     "static/media/pre.svg": "/static/media/pre.cb09abb03bcdc13f4683.svg",
     "index.html": "/index.html",
-    "main.eeae4c50.css.map": "/static/css/main.eeae4c50.css.map",
-    "main.7cf81650.js.map": "/static/js/main.7cf81650.js.map",
+    "main.65d8efae.css.map": "/static/css/main.65d8efae.css.map",
+    "main.adcaddaa.js.map": "/static/js/main.adcaddaa.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eeae4c50.css",
-    "static/js/main.7cf81650.js"
+    "static/css/main.65d8efae.css",
+    "static/js/main.adcaddaa.js"
   ]
 }
