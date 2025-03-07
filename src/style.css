@@ -300,7 +300,8 @@ button:focus {
   padding-bottom: 0 !important;
   padding-top: 0 !important;
   overflow: hidden;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   display: flex;
   align-items: center;
 }
@@ -319,6 +320,8 @@ button:focus {
 
 .hero-row {
   min-height: 80vh;
+  padding-top: 100px;
+  padding-bottom: 40px;
   align-items: center !important;
 }
 
@@ -1914,6 +1917,11 @@ button:focus {
 
 /* Extra small devices (phones, 575px and down) */
 @media (max-width: 575px) {
+  /* Global styles for very small screens */
+  .App {
+    overflow-x: hidden;
+  }
+  
   .section-title {
     margin-bottom: 30px;
   }
@@ -1924,6 +1932,37 @@ button:focus {
   
   .section-subtitle {
     font-size: 0.8rem;
+  }
+  
+  /* Fix for the home page overflow on mobile */
+  .homepage-wrapper {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  
+  .hero-section {
+    min-height: 100vh;
+    height: auto;
+    padding-bottom: 30px;
+  }
+  
+  .hero-row {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    min-height: auto;
+  }
+  
+  .hero-name {
+    font-size: 2.5em !important;
+    overflow-wrap: break-word;
+  }
+  
+  .hero-greeting {
+    font-size: 1.4em !important;
+  }
+  
+  .hero-text-container {
+    padding: 0 20px;
   }
   
   /* Bio section for very small screens */
@@ -2004,6 +2043,16 @@ button:focus {
     font-size: 0.9rem;
     margin-bottom: 20px;
   }
+  
+  /* Footer for very small screens */
+  .footer {
+    padding: 15px 10px !important;
+  }
+  
+  .footer-copywright,
+  .footer-body {
+    font-size: 0.85rem !important;
+  }
 }
 
 /* Responsive adjustments */
@@ -2034,7 +2083,8 @@ button:focus {
 }
 
 @media (max-width: 767px) {
-  .home-section {
+  .home-section, 
+  .hero-section {
     height: auto;
     min-height: 100vh;
   }
@@ -2042,7 +2092,7 @@ button:focus {
   .hero-row {
     min-height: auto;
     padding-top: 120px;
-    padding-bottom: 60px;
+    padding-bottom: 80px;
   }
   
   .hero-name {
@@ -2281,11 +2331,14 @@ button:focus {
 /* --------- */
 .footer {
   background-color: var(--primary) !important;
+  position: relative !important;
   bottom: 0 !important;
+  width: 100% !important; 
   padding-top: 20px !important;
   padding-bottom: 15px !important;
   border-top: 1px solid rgba(0, 184, 148, 0.1) !important;
   box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.03) !important;
+  z-index: 10 !important;
 }
 .footer-copywright {
   text-align: center !important;
