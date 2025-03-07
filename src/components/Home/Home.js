@@ -3,10 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/MaxCutout.png";
 import Tilt from "react-parallax-tilt";
 import GridBackground from "../GridBackground";
-import Home2 from "./Home2";
 import Type from "./Type";
 import { Link } from "react-router-dom";
-import { FaAngleDown } from "react-icons/fa";
 
 function Home() {
   return (
@@ -34,9 +32,9 @@ function Home() {
                 </p>
                 
                 <div className="hero-buttons">
-                  <a href="#/about" className="hero-button primary-button">
+                  <Link to="/about" className="hero-button primary-button">
                     Learn About Me
-                  </a>
+                  </Link>
                   <Link to="/project" className="hero-button secondary-button">
                     View My Projects
                   </Link>
@@ -54,15 +52,8 @@ function Home() {
               </Tilt>
             </Col>
           </Row>
-          
-          <div className="scroll-indicator">
-            <a href="#/about" className="scroll-down-link">
-              <FaAngleDown className="scroll-down-arrow" />
-            </a>
-          </div>
         </Container>
       </div>
-      <Home2 />
     </section>
   );
 }
