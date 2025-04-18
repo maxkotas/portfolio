@@ -306,23 +306,20 @@ function About() {
               </div>
               
               <div className="timeline">
-                {/* Texas A&M University */}
                 <div className="timeline-item">
                   <div className="timeline-dot"></div>
                   <div className="timeline-content timeline-card">
                     <h3 className="timeline-title">Texas A&M University</h3>
                     <div className="timeline-info">
-                      <span className="timeline-year">2020 - 2024</span>
+                      <span className="timeline-year">2019 - 2023</span>
                       <span className="timeline-location">College Station, TX</span>
                     </div>
                     <p className="timeline-text">
                       Bachelor of Science in Electrical Engineering with focus on Control Systems and Embedded Design.
-                      Minor in Mathematics with an emphasis on control theory.
                     </p>
                   </div>
                 </div>
                 
-                {/* Engineering Internship */}
                 <div className="timeline-item">
                   <div className="timeline-dot"></div>
                   <div className="timeline-content timeline-card">
@@ -333,23 +330,6 @@ function About() {
                     </div>
                     <p className="timeline-text">
                       Developed embedded systems solutions and contributed to motor control system design.
-                      Worked on real-world applications of control theory and signal processing.
-                    </p>
-                  </div>
-                </div>
-                
-                {/* High School */}
-                <div className="timeline-item">
-                  <div className="timeline-dot"></div>
-                  <div className="timeline-content timeline-card">
-                    <h3 className="timeline-title">High School</h3>
-                    <div className="timeline-info">
-                      <span className="timeline-year">2016 - 2020</span>
-                      <span className="timeline-location">Dallas, TX</span>
-                    </div>
-                    <p className="timeline-text">
-                      Graduated with honors, focusing on STEM subjects and participating in robotics and engineering competitions.
-                      Focused on hands-on learning in science, technology, engineering, and mathematics.
                     </p>
                   </div>
                 </div>
