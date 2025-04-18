@@ -306,30 +306,34 @@ function About() {
               </div>
               
               <div className="timeline">
+                {/* Timeline Title */}
+                <h3 className="timeline-section-title">Education & Experience</h3>
+                
+                {/* Texas A&M University */}
                 <div className="timeline-item">
                   <div className="timeline-dot"></div>
                   <div className="timeline-content timeline-card">
                     <h3 className="timeline-title">Texas A&M University</h3>
                     <div className="timeline-info">
-                      <span className="timeline-year">2019 - 2023</span>
+                      <span className="timeline-year">2020 - 2024</span>
                       <span className="timeline-location">College Station, TX</span>
                     </div>
                     <p className="timeline-text">
-                      Bachelor of Science in Electrical Engineering with focus on Control Systems and Embedded Design.
+                      Bachelor of Science in Electrical Engineering with focus on Embedded Design.
                     </p>
                   </div>
                 </div>
                 
+                {/* Engineering Internship */}
                 <div className="timeline-item">
                   <div className="timeline-dot"></div>
                   <div className="timeline-content timeline-card">
-                    <h3 className="timeline-title">Engineering Internship</h3>
+                    <h3 className="timeline-title">PISD Academy High School</h3>
                     <div className="timeline-info">
-                      <span className="timeline-year">Summer 2022</span>
-                      <span className="timeline-location">Texas Instruments</span>
+                      <span className="timeline-location">STEM-Based Project-Based Learning School</span>
                     </div>
                     <p className="timeline-text">
-                      Developed embedded systems solutions and contributed to motor control system design.
+                      Focused on hands-on learning in science, technology, engineering, and mathematics (STEM).
                     </p>
                   </div>
                 </div>
