@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1bf6cad5.css",
-    "main.js": "/static/js/main.87caee85.js",
+    "main.css": "/static/css/main.555c3726.css",
+    "main.js": "/static/js/main.795ed7a3.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/WatchDogReport.pdf": "/static/media/WatchDogReport.7331306f9a148f87f097.pdf",
     "static/media/beverage_table.pdf": "/static/media/beverage_table.5fbee41cbb07154e2eba.pdf",
@@ -12,12 +12,12 @@
     "static/media/rolling-robot.jpg": "/static/media/rolling-robot.b938f438f299b736d364.jpg",
     "static/media/Max_Kotas_Resume.pdf": "/static/media/Max_Kotas_Resume.74e775614f2dabdb2c2f.pdf",
     "index.html": "/index.html",
-    "main.1bf6cad5.css.map": "/static/css/main.1bf6cad5.css.map",
-    "main.87caee85.js.map": "/static/js/main.87caee85.js.map",
+    "main.555c3726.css.map": "/static/css/main.555c3726.css.map",
+    "main.795ed7a3.js.map": "/static/js/main.795ed7a3.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bf6cad5.css",
-    "static/js/main.87caee85.js"
+    "static/css/main.555c3726.css",
+    "static/js/main.795ed7a3.js"
   ]
 }
